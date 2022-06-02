@@ -18,6 +18,8 @@ input{
     background-color: lightgrey;
     font-size: medium;
     margin-left: 1cm;
+    margin-left: unset;
+
 }
 
 button{
