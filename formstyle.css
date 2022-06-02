@@ -1,0 +1,28 @@
+body{
+    font-size: larger;
+    margin: 1cm;
+    padding: 1cm;
+}
+
+div{
+    padding: 10px;
+}
+
+label{
+    font: bold;
+}
+
+input{
+    outline-style: solid;
+    outline-width: 0.1mm;
+    background-color: lightgrey;
+    font-size: medium;
+    margin-left: 1cm;
+}
+
+button{
+    background-color: peachpuff;
+    font-size: large;
+
+}
+
