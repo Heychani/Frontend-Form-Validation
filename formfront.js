@@ -1,6 +1,8 @@
 
-let toDo = [newtask];
+let toDo = (newtask);
 
+
+//ek sukkel om die function en die label te link sodat die function weet ek praat van die labels in HTML
 function myValidation(text){
     document.getElementById(newtask);
     if (newtask == text){
@@ -12,6 +14,8 @@ function myValidation(text){
 toDo.push(toDo);
 alert(myValidation(toDo));
 
+// een kleur terwyl mens tik en dan 'n ander kleur wanneer dit ingesit is
+
 
 
 // const naam = "Chani";
@@ -22,6 +26,8 @@ alert(myValidation(toDo));
 
 // myValidation();
 
+//Alles van hier af boontoe is vir die To do app
+
 // function adder(num1, num2) {
 //   console.log(num1 + num2);
 // }
@@ -30,7 +36,7 @@ alert(myValidation(toDo));
 
 // function toUpper(text){
 //   const upperCased = text.toUpperCase();
-//   console.log(upperCased);
+//   console.log(upperCased);                             //van const naam tot const toUpper was net practice van functions en hoe dit werk.... 
 // }
 
 // toUpper(naam);
