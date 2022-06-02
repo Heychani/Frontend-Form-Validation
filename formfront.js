@@ -4,7 +4,7 @@ let toDo = (newtask);
 
 //ek sukkel om die function en die label te link sodat die function weet ek praat van die labels in HTML
 function myValidation(text){
-    document.getElementById(newtask);
+    document.getElementById(newtask);//weet nie of ek even die getelement moet gebruik nie, maar dis al hoe ek dink om dit te connect
     if (newtask == text){
         return "You have successfully added a New Task!"; //ek wil he die task moet in gevul word, as daar nie iets ingevul is nie moet hy se dit moet ingevul word of well done dis ingevul
     }

@@ -14,12 +14,11 @@ label{
 
 input{
     outline-style: solid;
-    outline-width: 0.1mm;
-    background-color: lightgrey;
+    outline-color: grey;
+    outline-width: 0.3mm;
     font-size: medium;
     margin-left: 1cm;
-    margin-left: unset;
-
+    padding-block: 0.6mm;
 }
 
 button{
