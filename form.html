@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,40 +8,41 @@
     <title>Frontend Validation Challenge</title>
     <link rel="stylesheet" href="formstyle.css">
 </head>
+
 <body>
 
     <h1>Form: </h1>
 
-<form>
-    <div>
-        <label for="newtask">New Task: </label> 
-        <input type="text" id="newtask" placeholder="Required and must contain no HTML characters" required>
-    </div>
+    <form>
+        <div>
+            <label for="newtask">New Task: </label>
+            <input type="text" id="newtask" placeholder="Required and must contain no HTML characters" required>
+        </div>
 
-    <div>
-        <label for="taskdescription">Task Description: </label>
-        <input type="taskdescription" id="taskdescription" placeholder="Optional">
-    </div>
+        <div>
+            <label for="taskdescription">Task Description: </label>
+            <input type="taskdescription" id="taskdescription" placeholder="Optional">
+        </div>
 
-    <div> 
-        <label for="duedate">Set Task due date: </label> 
-        <input type="date" autocomplete="off" min="2022-01-01" max="2030-12-31">
-    </div>
+        <div>
+            <label for="duedate">Set Task due date: </label>
+            <input type="date" autocomplete="off" min="2022-01-01" max="2030-12-31">
+        </div>
 
-    <div> 
-        <label for="time">Set Task due time: </label>
-        <input type="time" name="time-to-meet" min="2022-01-01" max="2030-12-31" required>
-    </div>
+        <div>
+            <label for="time">Set Task due time: </label>
+            <input type="time" name="time-to-meet" min="2022-01-01" max="2030-12-31" required>
+        </div>
 
-    <div>
-        <button type="submit" value="submit">Submit</button>
-    </div>
+        <div>
+            <button type="submit" value="submit" onclick="myValidation()">Submit</button>
+        </div>
 
-</form>
+    </form>
 
-<script
-    src="formfront.js">
-</script>
+    <script src="formfront.js">
+    </script>
 
 </body>
+
 </html>
